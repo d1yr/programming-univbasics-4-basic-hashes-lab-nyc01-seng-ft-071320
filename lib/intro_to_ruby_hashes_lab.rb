@@ -12,5 +12,8 @@ end
 
 
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
+  "I am a string".object_id
+#=> 70298611796560
+"I am a string".object_id
+#=> 70298611847740
 end
